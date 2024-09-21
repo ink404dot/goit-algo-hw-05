@@ -24,11 +24,11 @@ def count_logs_by_level(logs: list) -> dict:
 
 
 def display_log_counts(counts: dict):
-    # Заголовок таблицы
+    # Заголовок таблиці
     print(f"{'Level':<10} | {'Count':<10}")
     print("-" * 20)
 
-    # Выводим данные
+    # Виводимо дані
     for level, count in counts.items():
         print(f"{level:<10} | {count:<10}")
 
